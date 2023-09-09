@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="style-login.css">
+</head>
+<body>
+
+    <div id="detalhe"></div>
+    <div id="detalhe2"></div>
+    <div id="detalhe3"></div>
+
+    <header>
+        <div id="sgi">
+        <img id="logo" src="imagens/logo.png" alt="Logo SGI">
+        </div>
+
+        <div class="nav-box">
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Cadastrar</a>
+                <a href="#">Item</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="tela-login">
+        <h1 class="title">Login de Usuário</h1>
+        <p class="subtitle">Coloque suas informações de acesso ao sistema</p>
+        
+        <!-- Formulário de Login -->
+        <form method="post" action="processar_login.php">
+            <input type="text" name="nome" placeholder="Nome" required>
+            <br><br>
+            <input type="password" name="senha" placeholder="Senha" required>
+            <br><br>
+            <div class="centered-links">
+                <a href="#">Esqueceu a senha?</a>
+                <br>
+                <a href="#">Não tenho cadastro</a>
+            </div>
+            <br><br>
+            <div class="centered-button">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+        <!-- Fim do Formulário de Login -->
+    </div>
+
+    <div id="detalhe1"></div>
+    <div id="detalhe2"></div>
+</body>
+</html>
